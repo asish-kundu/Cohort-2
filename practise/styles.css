@@ -1,0 +1,145 @@
+@font-face {
+    font-family: hera;
+    src: url(./Fontspring-DEMO-juana-extralightit_toKzXEsfr.ttf);
+}
+@font-face{
+    font-family: lera;
+    src:url(./NeueMachina-Light_gwWCZxVuQl.ttf)
+}
+@font-face{
+    font-family: mera;
+    src:url(./NeueMachina-Regular_DQCmjH1st.ttf)
+}
+@font-face{
+    font-family: jera;
+    src:url(./remixicon.woff2)
+}
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html body{
+    height: 100%;
+    width: 100%;
+}
+/* Header/Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 40px;
+    background: transparent;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+nav a {
+    margin: 0 14px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    transition: color 0.2s;
+    font-family: lera;
+}
+nav a.cohort {
+    color: #5e2508;
+    font-weight: 600;
+}
+/* You can replace with appropriate icons or SVGs for bell and user */
+nav .icon.bell, nav .icon.user {
+    margin-left: 16px;
+    width: 28px;
+    height: 28px;
+    background: #333;
+    border-radius: 50%;
+    display: inline-block;
+}
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding-top: 70px;
+    color: #fff;
+}
+.hero h1 {
+    font-size: 3.2em;
+    line-height: 1.15;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-family: mera;
+}
+.hero .highlight {
+    color: #14ffb9;
+}
+.hero em {
+    font-style: italic;
+}
+.cta-btn {
+    display: inline-block;
+    margin: 32px auto 0 auto;
+    padding: 14px 44px;
+    background: #14ffb9;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.cta-btn:hover {
+    background: #13c199;
+}
+.desc {
+    color: #70ffe6;
+    margin-top: 24px;
+    font-family: hera;
+}
+.desc .link {
+    color: #14ffb9;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+.desc .link:hover {
+    color: #f5a623;
+}
+/* Stats Section */
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 100px;
+    color: #fff;
+}
+.stats > div {
+    text-align: center;
+}
+.stats strong {
+    display: block;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #fff;
+}
+.stats span {
+    font-size: 1em;
+    color: #b9f6ea;
+}
+/* Background Gradient (optional, for effect) */
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: radial-gradient(ellipse at center, #12342a 0%, #000 70%);
+    font-family: 'Segoe UI', SegoeUI, Arial, sans-serif;
+}

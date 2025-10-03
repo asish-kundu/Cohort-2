@@ -1,0 +1,21 @@
+<!-- heading from h1 to h6 -->
+
+     <!-- paragraph tag (lorem) and br tag -->
+
+      <!-- image(height ,alt- image not found) , video(autoplay,muted,loop,controls) , audio (autoplay,controls)-->
+
+      <!-- linking page a HREF -->
+       
+       <!-- iframe we can add prview of some webite or any yt video link in small space like advertisment  -->
+
+      <!-- list : ol(order list) and ul(unorderd list): (li: list items ) -->
+
+      <!-- form {
+       input type:text,password,mail,date and time 
+       
+        radio:mail/female
+
+       checkbox:agree to terms and conditon 
+
+       button :submit
+       } -->
