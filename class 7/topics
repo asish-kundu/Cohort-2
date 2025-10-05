@@ -1,0 +1,19 @@
+here we are studing display flex where the time comes in 
+row   
+
+
+
+align-item: center
+ /*  to handel item in Y axis */
+
+
+justify-content: flex-start 
+/*  to handel item in X axis */
+
+justify-content: space-between 
+    /* here the space distribute in between them  */
+
+    justify-content: space-around
+    /* space is equaly disrtibute  */
+    
+    
