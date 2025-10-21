@@ -1,0 +1,14 @@
+
+position absolute : floating
+ then we can give the direction
+(respecting to whole screen)
+
+
+z index : which we are viewing it wil cum up just like layering in photo shop ( jiska zada value wo upar)
+
+transform & translet : which ca be use to center any object
+
+
+align-items: kam karta hai x axis pe or we can say cross axis
+
+justify-content: kam karta hai y axis pe 
