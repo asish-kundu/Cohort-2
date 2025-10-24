@@ -1,0 +1,16 @@
+   
+   3D effect 
+   simple meaning image ko guma dena 
+   
+    transform:rotateY(45deg) ;
+ or transform:rotatex(45deg) ;
+
+ an then we have to apply prespective(up kaha se dek rahe ho) to the parent container to see the 3D effect.
+
+ then their is another property of transform: which is SCALE (it means size of the element by default it has 1)
+ 2 = doguna 
+ 3 = tinguna
+
+ hover: it will aplly some effect on some particular iteam like box like card or like link to change color while we hover means when we take teh cursor to that position 
+
+ we can use this property with a bottom div to create an effect by hovering the cursor

@@ -32,7 +32,7 @@ body {
         box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.395);
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
         flex-direction: column;
         gap: 10px;
 }
@@ -51,15 +51,20 @@ body {
 #card p{
     font-size: 15px;
     font-weight: 100px;
-
+    text-align: center;
 }
 #card button{
     height: 40px;
     width: 100px;
     border-radius: 20px;
     border: none;
+    padding: 10px;
     background-color: lightblue;
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
+}
+#card button:hover{
+    background-color: rgb(105, 105, 255);
+    color: white;
 }

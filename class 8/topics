@@ -1,3 +1,5 @@
+flex box
+
 
 position absolute : floating
  then we can give the direction
@@ -12,3 +14,6 @@ transform & translet : which ca be use to center any object
 align-items: kam karta hai x axis pe or we can say cross axis
 
 justify-content: kam karta hai y axis pe 
+
+
+card hover
